@@ -1,39 +1,42 @@
-Movie Search Web App
-A responsive movie search web app built using React.js and Tailwind CSS. This app allows users to search for movies by title and view details such as the movie poster, genre, release year, plot summary, and ratings. Data is fetched from a third-party movie API.
+# Movie Search Web Application
 
-Features:
-Search movies by title
-View detailed movie information (poster, plot, cast, genre, ratings)
-Filter results by genre, rating, and release year
-Fully responsive design for desktop and mobile
-Technologies Used:
-React.js
-Tailwind CSS
-JavaScript
-Movie Database API (or your specific API)
-Setup:
-Clone the repository:
+A simple movie search web application where users can search for movies and view details using an external API.
 
-bash
-Copy
+## Features
+
+- Search for movies by title.
+- Display movie details such as poster, rating, release year, and overview.
+- Responsive UI.
+
+## Technologies Used
+
+- **Frontend**: React.js
+- **CSS Framework**: Tailwind CSS
+- **API**: OMDB API (or any movie API you're using)
+
+## Installation
+
+1. Clone the repository:
+
+   ``
+ https://github.com/NidaKhan711/Movie-Search.git
+``
+Navigate into the project directory:
+
+``
+cd movie-search-web
+``
+Install the required dependencies:
+
+
+``npm install
+``
+Start the development server:
+
+``
+``
+
 Edit
-git clone https://github.com/yourusername/movie-search-app.git
-Navigate to the project folder:
-
-bash
-Copy
-Edit
-cd movie-search-app
-Install dependencies:
-
-bash
-Copy
-Edit
-npm install
-Start the app:
-
-bash
-Copy
-Edit
-npm start
-  
+``
+npm run dev
+``
