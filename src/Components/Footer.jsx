@@ -8,7 +8,7 @@ const Footer = () => {
           &copy; {new Date().getFullYear()} MovieFinder. All rights reserved.
         </p>
         <p className="text-sm">
-          Created with ❤️ by <a href="https://www.linkedin.com/in/nida-batool-6a5599312/" className="text-red-500 hover:text-red-700">NidaBatool</a>
+          Created   by <a href="https://www.linkedin.com/in/nida-batool-6a5599312/" className="text-red-500 hover:text-red-700">NidaBatool❤️</a>
         </p>
       </div>
     </footer>
